@@ -6,6 +6,8 @@ namespace WebApplication.Models
   {
     [Required]
     public string Email { get; set; }
+    
+    public string CurrentPassword { get; set; }
     [Required]
     public string NewPassword { get; set; }
   }
